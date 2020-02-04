@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$((export POWER=POWER/export DIVIDE=DIVIDE))"
+echo "$((POWER/DIVIDE))"
