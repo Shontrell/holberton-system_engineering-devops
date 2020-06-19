@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Bash script that displays Holberton School 10 times
+while [[ $x -le 9 ]]
+do
+	if [[ $x -eq 8 ]]
+	   then
+		echo "Holberton School"
+		echo "Hi"
+	else
+		echo "Holberton School"
+	fi
+	x=$(( x + 1 ))
+done
